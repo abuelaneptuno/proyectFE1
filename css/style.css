@@ -1,0 +1,29 @@
+.banner {
+    background-image: url('banner.png');
+    background-size: contain;
+}
+
+.contactos {
+    background-color: #3C2313;
+}
+
+footer {
+    background-color: #222222;
+}
+
+nav {
+    background-color: #222222;
+    color: whitesmoke;
+}
+
+li.producto { 
+    list-style: none;
+}
+
+.suscripcion {
+    background-color: #F0A83E;
+}
+
+.top {
+    background-color: #F0A83E;
+}
