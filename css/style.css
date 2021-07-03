@@ -1,23 +1,109 @@
 .banner {
-    background-image: url('banner.png');
-    background-size: contain;
+    position: relative;
 }
 
 .contactos {
     background-color: #3C2313;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.destacados {
+    position: relative;
+    bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.patita {
+    position: relative;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+}
+
+.imagen_banner {
+    position: relative;
+    z-index: 1;
 }
 
 footer {
     background-color: #222222;
-}
-
-nav {
-    background-color: #222222;
-    color: whitesmoke;
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
+    padding: 8px;
 }
 
 li.producto { 
     list-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto';
+}
+
+.mensaje_banner {
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    bottom: 300px;
+    left: 600px;
+}
+
+.mensaje1 {
+    background-color: white;
+    text-align: center;
+}
+
+.mensaje2 {
+    position: relative;
+    left: 75px;
+    background-color: #F0A83E;
+    color:white;
+    text-align: center;
+    width: 40%;
+    padding: 5px;
+}
+
+.menu {
+    position: absolute;
+    width: 343px;
+    height: 15px;
+    left: 641px;
+    top: 43px;
+}
+
+nav {
+    background-color: #F0A83E;
+    padding: 10px;
+    display: flex;
+    font-family: 'Roboto';
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+.productos {
+    display: flex;
 }
 
 .suscripcion {
@@ -25,5 +111,10 @@ li.producto {
 }
 
 .top {
-    background-color: #F0A83E;
+    background-color: #222222;
+    color: whitesmoke; 
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px;
+    font-family: 'Roboto';
 }
