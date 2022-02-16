@@ -198,3 +198,27 @@ nav ul li {
     padding: 0px 10px 0px;
     font-family: 'Roboto';
 }
+
+@media screen and (max-width: 700px){
+    .productos-destacados {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mensaje_banner {
+        position:relative;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .mensaje_banner {
+        bottom: 20%;
+    }
+}
