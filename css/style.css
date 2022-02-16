@@ -1,32 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
 .banner {
     position: relative;
 }
 
-.contactos {
+.botones-form {
+    display: flex;
+    flex-direction: row;
+}
+
+button:hover {
+    transform:scale(1.2);
+}
+
+    .contactos {
     background-color: #3C2313;
     font-family: 'Roboto';
     color: white;
 }
 
+.contacto {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contacto img {
+    margin: 10px;
+}
+
+.dato {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    height: 10px;
+}
+
 .destacados {
     position: relative;
-    bottom: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
 
-.patita {
-    position: relative;
-    left: 45%;
-    width: 100px;
-    height: 100px;
+.destacados h1 {
+    color: #3C2313;
+    font-weight: bolder;
 }
 
-.imagen_banner {
-    position: relative;
-    z-index: 1;
+.contactar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.form-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-contacto input[type=text]{
+    background-color: #3C2313;
+    color:#F0A83E;
+    border-radius: 20px;
+    height: 30px;
+    width: 150%;
+    margin: 10px;
+}
+
+.form-contacto button{
+    background-color:#F0A83E;
+    color:#3C2313;
+    border-radius: 20px;
+    height: 40px;
+    width: 200%;
+    margin: 10px;
 }
 
 footer {
@@ -35,6 +88,11 @@ footer {
     color: white;
     text-align: center;
     padding: 8px;
+}
+
+.imagen_banner {
+    position: relative;
+    z-index: 1;
 }
 
 li.producto { 
@@ -50,29 +108,28 @@ main {
 
 .mensaje_banner {
     width: 30%;
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     z-index: 10;
-    bottom: 300px;
-    left: 600px;
+    bottom: 50%;
+    left: 67%;
 }
 
 .mensaje1 {
     background-color: white;
     text-align: center;
+    border-radius: 5px;
 }
 
 .mensaje2 {
-    position: relative;
-    left: 75px;
     background-color: #F0A83E;
     color:white;
-    text-align: center;
-    width: 40%;
     padding: 5px;
+    border-radius: 5px;
+    font-weight: lighter;
 }
 
 .menu {
@@ -102,12 +159,35 @@ nav ul li {
     margin: 10px;
 }
 
+.patita {
+    position: relative;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+}
+
 .productos {
     display: flex;
 }
 
+.producto-card {
+    background-color: #FBFAF6;
+}
+
+.producto-card:hover {
+    transform: scale(1.1);
+}
+.productos-destacados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .suscripcion {
     background-color: #F0A83E;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
 }
 
 .top {

@@ -1,72 +1,150 @@
 <!DOCTYPE html>
 <html lang=”en”>
+
 <head>
     <meta charset=”UTF-8″ />
     <title>CatDog</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- https://material.io/resources/icons/?style=baseline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=outline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=round -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=sharp -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=twotone -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+</head>
 
 <body>
-        <section class="top">
-            <div><p>Grandes ofertas en comederos</p></div>
-            <div><p>Español ARG$</p></div>
-        </section>
+    <section class="top">
+        <div>
+            <p>Grandes ofertas en comederos</p>
+        </div>
+        <div>
+            <p>Español ARG$</p>
+        </div>
+    </section>
 
-        <nav>
-            <div class="logo">
-                <img src="img/Logo.png">
-            </div>
-            <div>
+    <nav>
+        <div class="logo">
+            <img src="img/Logo.png">
+        </div>
+        <div>
             <ul>
                 <li><i class="fas fa-paw"></i>Categorías</li>
                 <li><i class="fas fa-paw"></i>Pets</li>
                 <li><i class="fas fa-paw"></i>Nosotros</li>
                 <li><i class="fas fa-paw"></i>Contactanos</li>
             </ul>
-            </div>
-        </nav>
-    
+        </div>
+    </nav>
+
 
     <main>
         <section class="banner">
-            <div class="imagen_banner">
-                <img src="img/banner.png" style="width: 100%">
-            </div>
+            <img src="img/banner.png" style="width:100%">
             <div class="mensaje_banner">
-                <div class="mensaje1"><h2>¡Es un placer tenerte aquí!</h2></div>
-                <p>¡Comederos en descuento!</p>
-                <div class="mensaje2"><p>COMEDEROS</p></div>  
-        </div>
+                <div class="mensaje1">
+                    <h2>¡Es un placer tenerte aquí!</h2>
+                </div>
+                <div>
+                    <p>¡Comederos en descuento!</p>
+                </div>
+                <div class="mensaje2">
+                    <p>COMEDEROS</p>
+                </div>
+            </div>
         </section>
 
-        <section class="destacados"> <!--productos destacados-->
+
+        <section class="destacados">
             <img class="patita" src="img/pawprint 1.png">
             <h1>Productos destacados</h1>
-            <h3>Comederos - Accesorios - Comida</h3>
-            <ul class="productos">
-                <li class="producto"><img src="img/churrasquito.png">Juguete churrasquito $150</li>
-                <li class="producto"><img src="img/comedero.png">Comedero para perro $250</li>
-                <li class="producto"><img src="img/Huesito.png">Juguete huesito $650</li>
-            </ul>
+            <h4>Comederos - Accesorios - Comida</h4>
+            <div class="productos-destacados">
+                <div class="producto-card">
+                    <img src="img/churrasquito.png">
+                    <p>Juguete churrasquito</p>
+                    <p>$150</p>
+                </div>
+                <div class="producto-card">
+                    <img src="img/comedero.png">
+                    <p>Comedero para perro</p>
+                    <p>$250</p>
+                </div>
+                <div class="producto-card">
+                    <img src="img/Huesito.png">
+                    <p>Juguete huesito</p>
+                    <p>$650</p>
+                </div>
+            </div>
         </section>
 
-        <section><!--formulario de contacto-->
-
+        <section class="contactar">
+            <!--formulario de contacto-->
+            <img src="img/pawprint 1.png">
+            <h1>Contactanos</h1>
+            <form class="form-contacto">
+                <input type="text" placeholder="Nombre y apellido">
+                <input type="text" placeholder="Correo electrónico">
+                <input type="text" placeholder="Teléfono">
+                <div class="botones-form">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+            </form>
         </section>
-    
 
-    
-        <section class="suscripcion"> <!--suscripción-->
+
+
+        <section class="suscripcion">
+            <!--suscripción-->
             <img src="img/mail.png"> <span>Suscribite para más novedades</span>
         </section>
 
-        <section class="contactos"> <!--datos de contacto-->
-            <img src="img/localidad.png"> <span> Localidad</span><br>
-            <img src="img/telllefono.png"> <span>Teléfono</span><br>
-            <img src="img/telefono.png"><span>Correo Electrónico</span>
+        <section class="contactos">
+            <div class="contacto">
+                <img src="img/localidad.png">
+                <div>
+                    <h5>Localidad</h5>
+                    <div class="dato">
+                        <span class="material-icons-outlined">
+                            room
+                        </span>
+                        <h5>Ubicación</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="contacto">
+                <img src="img/telllefono.png">
+                <div>
+                    <p>Teléfono</p>
+                    <div class="dato">
+                        <span class="material-icons-outlined">
+                            settings_phone
+                        </span>
+                        <h5>000111222</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="contacto">
+                <img src="img/telefono.png">
+                <div>
+                    <h5>Correo Electrónico</h5>
+                    <div class="dato">
+                        <span class="material-icons-outlined">
+                            local_post_office
+                        </span>
+                        <h5>mail@mail.com</h5>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
